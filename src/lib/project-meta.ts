@@ -29,7 +29,7 @@ export function projectLanguages(project: Project): string[] {
   if (!project.language) return [];
   return project.language
     .split(",")
-    .map((lang) => lang.trim())
+    .map((lang: string) => lang.trim())
     .filter(Boolean);
 }
 

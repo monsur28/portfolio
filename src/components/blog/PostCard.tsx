@@ -60,7 +60,7 @@ export default function PostCard({ post, featured = false }: { post: Post; featu
 
         <div className="mt-auto flex items-center justify-between gap-3 pt-2">
           <ul className="flex flex-wrap gap-1.5">
-            {post.tags.slice(0, 3).map((tag) => (
+            {post.tags.slice(0, 3).map((tag: string) => (
               <li
                 key={tag}
                 className="rounded-full border border-white/10 bg-white/5 px-2.5 py-0.5 text-[10px] font-medium uppercase tracking-wider text-neutral-300"

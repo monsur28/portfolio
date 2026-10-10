@@ -34,7 +34,7 @@ export async function getRelatedPosts(postId: string, tags: string[], take = 3) 
     where: {
       isPublished: true,
       publishedAt: { lte: new Date() },
-      id: { notIn: [postId, ...related.map((p) => p.id)] },
+      id: { notIn: [postId, ...related.map((p: { id: string }) => p.id)] },
     },
     orderBy: { publishedAt: "desc" },
     take: take - related.length,
