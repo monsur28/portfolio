@@ -37,12 +37,13 @@ const MILESTONES: Milestone[] = [
     kind: "work",
   },
   {
-    period: "2020 — 2024",
+    period: "2020 — Present",
     title: "SEO and Web Developer Freelancer (Level 2)",
     org: "Fiverr",
     url: "https://fiverr.com/",
     summary: "Designed and developed high-converting custom themes and landing pages for international clients.",
     kind: "work",
+    current: true,
   },
   {
     period: "2021 — 2025",
