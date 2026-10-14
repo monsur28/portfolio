@@ -38,7 +38,7 @@ const MILESTONES: Milestone[] = [
   },
   {
     period: "2020 — 2024",
-    title: "WordPress Expert",
+    title: "SEO and Web Developer Freelancer (Level 2)",
     org: "Fiverr",
     url: "https://fiverr.com/",
     summary: "Designed and developed high-converting custom themes and landing pages for international clients.",
@@ -49,13 +49,6 @@ const MILESTONES: Milestone[] = [
     title: "BSc Computer Science",
     org: "UCTC",
     summary: "Bachelor of Science in Computer Science and Engineering.",
-    kind: "education",
-  },
-  {
-    period: "2017 — 2019",
-    title: "HSC Science",
-    org: "Hazera Taju Degree College",
-    summary: "Higher Secondary Certificate with a focus on science and mathematics.",
     kind: "education",
   },
 ];
